@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>testLastMax</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    func testLastMax() {
+        let s = MaxStack&lt;Int&gt;()
+        s.push(2)
+        s.push(1)
+        s.push(3)
+        XCTAssertEqual(s.getMax(), 3)
+        s.pop()
+        XCTAssertEqual(s.getMax(), 2)
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C93A34B8-E244-4EEB-83B1-DB63C3977B6E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>testLastMax</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
